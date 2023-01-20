@@ -1,0 +1,224 @@
+
+
+html {
+    background-color: rgba(10, 50, 41, 0.688);
+}
+
+.key {
+    position: relative;
+    right:80px;
+}
+hr{
+  color: #fee140;
+  inline-size: auto;
+}
+
+h2{
+  color:rgb(0, 0, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  text-align:center;
+
+}
+h1 {
+  color: rgb(0, 3, 4);
+  opacity:1;
+  background-color:rgba(114, 114, 115, 0.338);
+  border-style:line;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size:30px;
+  text-align: center;
+}
+ 
+.navigation {
+  position: relative;
+  left:5px;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+  
+  .back_image {
+    background-image: url(images/oralnight.jpg);
+    height: 300px;;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .back_text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+  }
+
+
+.textalign {
+    border: 3px darkgrey ;
+    background-image: linear-gradient(190deg, #d8927e 0%, #fee140 100%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 2;
+    width: 50%;
+    height: 300px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left:50px;
+    padding-right:50px;
+    position: relative;
+    left:1px
+  }
+
+.textalign1 {
+    background-color:rgba(29, 74, 56, 0.308);
+    background-image: linear-gradient(190deg,  rgba(148, 183, 163, 0.863), rgba(41, 137, 99, 0.762) );
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 3px darkgrey;
+    margin: auto;
+    width: 50%;
+    Height: 300px;
+    text-align: center;
+    padding-left:50px;
+    padding-right:50px;
+    position: relative;
+    left:0.1px
+  }
+
+ 
+h1{
+    color:rgb(250, 182, 11);
+    text-align:center;
+}
+
+.buttondot {
+  border: none;
+  background-color: rgb(3, 20, 14);
+  color: rgb(227, 236, 227);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button {
+    border: none;
+    background-color: rgb(3, 20, 14);
+    color: rgb(227, 236, 227);
+    width: 365px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button1 {
+    background-color: rgba(148, 183, 163, 0.863); 
+    color: rgba(0, 2, 2, 0.982);
+    font-size:20px;
+    font-weight: 100;
+    border: 3px solid #f3a411cb;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .button2 {
+    background-color: rgba(148, 183, 163, 0.863); 
+    font-size:20px;
+    font-weight: 100;
+    color: rgba(0, 2, 2, 0.982); 
+    border: 3px solid #cd8d15cb;
+  }
+  
+  .button2:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+.button4 {
+    background-color: rgba(148, 183, 163, 0.863); 
+    color: rgba(0, 2, 2, 0.982); 
+    border: 3px solid #4CAF50;
+  }
+  
+  .button4:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+* {
+    box-sizing: border-box;
+}
+.button4{
+  cursor: pointer;
+  background-image: linear-gradient(190deg, #d8927e 0%, #fee140 100%);
+  color: #fff;
+  width: 734px;
+  text-align: center;
+  font-size:20px;
+  font-weight: 100;
+  padding: 18px 0;
+  margin: 0 auto;
+  transition:background-image 3s ease-in-out;
+}
+.Click-here:hover{
+  transition:background-image 3s ease-in-out;
+  background-image: linear-gradient(90deg, #fee140 0%, #f83600 100%);
+}
+
+hr{
+  color: #fee140;
+  inline-size: auto;
+}
+.columnimage {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content:"";
+  clear: both;
+  display:table;
+
+}
+h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3 {
+  color:rgba(2, 2, 0, 0.964);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-size: 20px;
+  text-align:center;
+}
+ol{
+  color:rgba(6, 4, 0, 0.964);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-size: 15px;
+  text-align:left;
+}
+
+.flex {
+   display: flex;
+}
+
+
+
+
+
