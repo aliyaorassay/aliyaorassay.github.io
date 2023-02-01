@@ -6,6 +6,7 @@ html, body {
     overflow-x: hidden;
     background-color: #224b4c;
 }
+
 * {
     margin: 0; 
     padding: 0;
@@ -13,18 +14,21 @@ html, body {
     font-family: 'Poppins', sans-serif;
 }
 
-a:active {
-    color: white;
-}
-a:visited {
-    color:forestgreen;
-}
 
-nav ul {
-    float:left;
-    list-style-type: none;
-    padding: 0;
-}
+a:link {
+    color:#ddd;
+  }
+
+
+a:visited {
+    color:#4c9933;
+    }
+a:hover {
+        color: rgb(255, 255, 0);
+        }  
+a:active {
+    color:red;
+    }   
 
 #main-heading {
     padding: 20px;
@@ -35,10 +39,6 @@ nav ul {
   }
 
 
-#task {
-    font-size:20px  ;
-    color: #fff;
-  }
 
 nav  {
     background-color: #2b6777;
@@ -56,11 +56,10 @@ nav a {
     font-size: 1.3em;
   }
   
-nav a:hover {
-    text-decoration:#000000;
-  }
-  
+
 nav ul {
+    list-style-type: none;
+    padding: 0;
     position:fixed;
     display: flex;
     gap: 30px;
@@ -87,6 +86,7 @@ nav ul {
     animation-fill-mode: both;
     transform: translateX(-150px);
 }
+
 @keyframes slideInLeft {
     from{
         transform:translateX(-300px);
@@ -115,6 +115,8 @@ nav ul {
     left:400px;
     bottom:70px;
 }
+
+
 .group {
     list-style-type: none;
     position:fixed;
@@ -128,6 +130,8 @@ h2 {
     padding: 5px; 
     margin:5px;
 }
+
+ 
 
 .group a {
     float:center;
@@ -145,6 +149,8 @@ h2 {
     align-items: center;
 
 }
+
+
 .group a:hover {
     background-color: #f3f310;
     color: #0c0032;
@@ -197,22 +203,6 @@ h2 {
     color:green;
 }
 
-a:link {
-    text-decoration: none;
-  }
-
-a:visited {
-    text-decoration: none;
-  }
-  
-a:hover {
-    text-decoration: underline;
-  }
-  
-a:active {
-    text-decoration: underline;
-  }
-
 table {
     align-items: center;
     border-collapse: collapse;
@@ -233,6 +223,14 @@ table {
     font-size: 25px;
     width: 100%;
 }
+
+
+
+#task {
+    font-size:20px  ;
+    color: #fff;
+  }
+
 
 footer {
     width: 100%;
@@ -255,10 +253,10 @@ h5 {
 .map {
     display:flex;
     position:relative;
-    
-
-    
+       
 }
+
+
 .contacts {
     display: flex;
     color:aliceblue;
@@ -282,6 +280,7 @@ h5 {
     position: relative;
     left:600px;
 }
+
 .categories #categoryitems {
     justify-content: space-between; 
     display:list-item;
@@ -324,6 +323,7 @@ aside {
     margin:10px;
     padding:10px;
 }
+
 
 
   
