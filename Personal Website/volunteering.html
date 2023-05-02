@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        html {
+            background: rgb(9,9,56);
+            background: radial-gradient(circle, rgba(9,9,56,0.8991246156665791) 57%, rgba(62,71,154,1) 100%);
+        }
+      .gallery {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px;
+      }
+
+      .gallery img {
+        width:400px;
+        height: 550px;
+        margin: 10px;
+        object-fit: cover;
+        border: 5px solid #d9b08c;
+        border-radius: 10px;
+      }
+
+      @media screen and (max-width: 768px) {
+        .gallery {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .gallery img {
+          width: 100%;
+          height: auto;
+          margin: 10px 0;
+        }
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="gallery">
+      <img src="volunteering/cdf1.png" alt="cdf 1">
+      <img src="volunteering/cdf2.jpg" alt="cdf 2">
+      <img src="volunteering/cdf3.png" alt="cdf 3">
+    </div>
+  </body>
+</html>
+
+</html>

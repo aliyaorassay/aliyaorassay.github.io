@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Hobbies Portfolio</title>
+	<style>
+        
+        html {
+            background: rgb(9,9,56);
+            background: radial-gradient(circle, rgba(9,9,56,0.8991246156665791) 57%, rgba(62,71,154,1) 100%);
+        }
+		body {
+			font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+            color: #d9b08c;
+            
+		}
+
+		h1 {
+            color: #d9b08c;
+			text-align: center;
+		}
+
+		.hobby {
+			display: flex;
+			align-items: center;
+			margin-bottom: 30px;
+		}
+
+		.hobby img {
+			width: 200px;
+			height: 200px;
+			margin-right: 20px;
+			object-fit: cover;
+            border-radius: 50%;
+		}
+
+		.hobby h2 {
+			margin: 0;
+		}
+
+		.hobby p {
+			margin-top: 5px;
+			font-size: 16px;
+		}
+
+        @media only screen and (max-width: 600px) {
+			body {
+				padding: 10px;
+			}
+
+			.hobby {
+				flex-direction: column;
+			}
+
+			.hobby img {
+				margin-right: 0;
+				margin-bottom: 10px;
+			}
+
+			.hobby h2 {
+				font-size: 24px;
+			}
+
+			.hobby p {
+				font-size: 14px;
+			}
+		}
+
+	</style>
+</head>
+<body>
+	<h1>Ars Gratia Artis</h1>
+
+	<div class="hobby">
+		<img src="hobby/hobby1.jpg" alt="Hobby 1">
+		<div>
+			<p>I love to paint and draw, and I've been doing it as a hobby for years. I've always had a passion for art, and I decided to take it more seriously when I enrolled in an art school a few years ago. I've learned a lot about different techniques and styles, and it's been an amazing experience to see my skills grow over time.</p>
+		</div>
+	</div>
+
+	<div class="hobby">
+		<img src="hobby/hobby2.jpg" alt="Hobby 2">
+		<div>
+			<p>One of the things I love about art is the sense of community that comes with it. That's why I joined the Art Studio club, a group of fellow artists who meet regularly to work on our art together, share tips and tricks, and provide feedback on each other's work. It's been great to connect with other people who share my passion for art and to learn from their perspectives and experiences.</p>
+		</div>
+	</div>
+
+	<div class="hobby">
+		<img src="hobby/hobby3.jpg" alt="Hobby 3">
+		<div>
+			<p>In addition to the Art Studio club, I've also been involved in gallery exhibitions. It's been an incredible opportunity to showcase my work to a wider audience and to get feedback from professionals in the industry. Being a part of these exhibitions has challenged me to think more critically about my art and to push myself to create work that truly reflects my vision as an artist.</p>
+		</div>
+	</div>
+</body>
+</html>
